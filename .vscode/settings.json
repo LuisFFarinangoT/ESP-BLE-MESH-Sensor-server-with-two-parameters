@@ -1,0 +1,24 @@
+{
+    "idf.adapterTargetName": "esp32",
+    "idf.openOcdConfigs": [
+        "board/esp32-wrover-kit-3.3v.cfg"
+    ],
+    "idf.portWin": "COM4",
+    "files.associations": {
+        "esp_ble_mesh_defs.h": "c",
+        "esp_ble_mesh_config_model_api.h": "c",
+        "esp_ble_mesh_sensor_model_api.h": "c",
+        "ble_mesh_example_init.h": "c",
+        "mesh_config.h": "c",
+        "provisioner_main.h": "c",
+        "proxy_server.h": "c",
+        "mesh_common.h": "c",
+        "stdint.h": "c",
+        "gpio.h": "c",
+        "string.h": "c",
+        "ble_mesh_example_nvs.h": "c",
+        "esp_ble_mesh_networking_api.h": "c",
+        "nvs_flash.h": "c",
+        "esp_adc_cal.h": "c"
+    }
+}

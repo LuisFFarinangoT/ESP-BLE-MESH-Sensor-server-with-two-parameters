@@ -1,0 +1,30 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${env:IDF_PATH}/components/**",
+                "${env:IDF_PATH}/components/freertos**",
+                "C:\\Users\\LUIS\\esp\\**",
+                "C:\\Users\\LUIS\\esp\\esp-idf\\components**",
+                "C:\\Users\\LUIS\\esp\\esp-idf\\components\\freertos**",
+                "C:\\Users\\LUIS\\esp\\esp-idf**",
+                "C:\\Users\\LUIS\\esp\\esp-idf\\examples\\**",
+                "C:\\Users\\LUIS\\esp\\esp-idf\\examples\\bluetooth\\esp_ble_mesh\\common_components\\example_nvs"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "windowsSdkVersion": "10.0.18362.0",
+            "compilerPath": "C:\\Users\\LUIS\\esp\\.espressif\\tools\\xtensa-esp32-elf\\esp-2021r2-8.4.0\\xtensa-esp32-elf\\bin\\xtensa-esp32-elf-gcc.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-clang-x64",
+            "configurationProvider": "ms-vscode.cmake-tools"
+        }
+    ],
+    "version": 4
+}
